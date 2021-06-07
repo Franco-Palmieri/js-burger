@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid black;
+}
+img{
+    width: 100%;
+}
+header{
+    background-color: rgb(255, 183, 29);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    padding: 20px 0 10px 20px;
+}
+.ingredient-section{
+    margin: 30px 0 15px 0;
+}
+.ingredient-section .name{
+    color: gray;
+    margin-bottom: 20px;
+}
+.box-input{
+    margin-bottom: 10px;
+}
+.button-box{
+    text-align: center;
+}

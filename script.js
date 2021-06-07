@@ -11,5 +11,5 @@ calculateSum.addEventListener('click', function(){
             resultInt += parseInt(checkPrice[i].value)
         }
     }
-    total.innerHTML = "Totale" + " " + resultInt + "$";
+    total.innerHTML = resultInt + "$";
 })
