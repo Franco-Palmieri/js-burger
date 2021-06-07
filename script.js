@@ -12,4 +12,9 @@ calculateSum.addEventListener('click', function(){
         }
     }
     total.innerHTML = resultInt + "$";
-})
+});
+
+
+
+
+

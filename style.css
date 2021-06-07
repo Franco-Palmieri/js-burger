@@ -1,6 +1,4 @@
-.container{
-    border: 1px solid black;
-}
+
 img{
     width: 100%;
 }
@@ -30,8 +28,17 @@ header{
 .box-input{
     margin-bottom: 20px;
 }
+.add{
+    color: red;
+}
 .discount-section{
     margin: 20px 0 50px 0;
+}
+.discount{
+    border: none;
+    background-color: #fff2d5;
+    border-radius: 10px;
+    color: gray;
 }
 .button-box{
     text-align: center;
@@ -50,4 +57,5 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: white;
 }
