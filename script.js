@@ -1,5 +1,10 @@
 var calculateSum = document.getElementById("calcola");
 var total = document.getElementById("result");
+var burgerName = document.getElementById("burger-name")
+var nameBurger = prompt("inserisci nome burger");
+
+alert(nameBurger);
+burgerName.innerHTML = nameBurger;
 
 
 calculateSum.addEventListener('click', function(){
@@ -12,6 +17,18 @@ calculateSum.addEventListener('click', function(){
         }
     }
     total.innerHTML = resultInt + "$";
+
+    var calcDiscount = resultInt * 20 / 100;
+    var totalDiscount = resultInt - calcDiscount;
+    var discountCode = document.getElementById("text-area")
+    var promoCode = "daje de tacco";
+    var flag = false;
+    
+    if(discountCode.value.length > 0 && discountCode.value === promoCode){
+        total.innerHTML = totalDiscount + "$"
+        flag = true;
+    }
+   
 });
 
 

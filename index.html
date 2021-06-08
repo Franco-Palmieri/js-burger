@@ -18,10 +18,10 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container altezza">
         <div class="row">
             <div class="ingredient-section col-12">
-                <h2 class="name">Name Your Burger</h2>
+                <h2 class="name" id="burger-name">Name Your Burger</h2>
                 <h4>Ingredients:</h4>
             </div>
             <div class="box-input col-6">
@@ -75,7 +75,7 @@
             <div class="discount-section col-12">
                 <div class="row">
                     <span class="col-5 col-md-3 col-xl-2">Discount Coupon</span>
-                    <input class="discount col-7 col-md-9 col-xl-10" id="text-area"type="text">
+                    <input class="discount col-7 col-md-9 col-xl-10" id="text-area" type="text" placeholder="Scrivi il tuo codice">
                 </div>
             </div>
             <div class="button-box col-12">
@@ -85,8 +85,12 @@
     </div>
     
     <footer>
-        <span>Your Price</span>
-        <div id="result"></div>
+        <div class="container">
+            <div class="space">
+                <span>Your Price</span>
+            <div id="result"></div>
+            </div>
+        </div>
     </footer>   
   
 
