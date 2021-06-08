@@ -4,11 +4,14 @@ img{
 }
 
 header{
-    background-color: #ffc107;
+    background-color: #fdbb40;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.altezza{
+    overflow: hidden;
 }
 .title{
     padding: 20px 0 10px 20px;
@@ -33,7 +36,7 @@ header{
     color: red;
 }
 .discount-section{
-    margin: 20px 0 50px 0;
+    margin: 20px 0 30px 0;
 }
 .discount{
     border: none;
@@ -50,18 +53,18 @@ header{
     border: none;
     border-radius: 10px;
 }
-.altezza{
-    height: calc(100vh - 184px);
-    overflow: hidden;
-}
 footer{
     background-color: rgb(124, 224, 255);
     padding: 30px;
     display: flex;
     align-items: center;
     color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .space{
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }

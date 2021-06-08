@@ -6,7 +6,6 @@ var nameBurger = prompt("inserisci nome burger");
 alert(nameBurger);
 burgerName.innerHTML = nameBurger;
 
-
 calculateSum.addEventListener('click', function(){
     var resultInt = 0 ;
     var checkPrice = document.getElementsByClassName('sum-check');
@@ -27,6 +26,8 @@ calculateSum.addEventListener('click', function(){
     if(discountCode.value.length > 0 && discountCode.value === promoCode){
         total.innerHTML = totalDiscount + "$"
         flag = true;
+    }else if (discountCode.value.length > 0){
+        alert("Nce provà!");
     }
    
 });
