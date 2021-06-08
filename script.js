@@ -29,7 +29,6 @@ calculateSum.addEventListener('click', function(){
     }else if (discountCode.value.length > 0){
         alert("Nce provà!");
     }
-   
 });
 
 
