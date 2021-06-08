@@ -21,7 +21,7 @@ calculateSum.addEventListener('click', function(){
     var calcDiscount = resultInt * 20 / 100;
     var totalDiscount = resultInt - calcDiscount;
     var discountCode = document.getElementById("text-area")
-    var promoCode = "daje de tacco";
+    var promoCode = "magnachetepassa";
     var flag = false;
     
     if(discountCode.value.length > 0 && discountCode.value === promoCode){
