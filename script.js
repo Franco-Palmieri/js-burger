@@ -15,7 +15,7 @@ calculateSum.addEventListener('click', function(){
             resultInt += parseInt(checkPrice[i].value)
         }
     }
-    total.innerHTML = resultInt + "$";
+    total.innerHTML = resultInt.toFixed(2) + "$";
 
     var calcDiscount = resultInt * 20 / 100;
     var totalDiscount = resultInt - calcDiscount;
@@ -24,7 +24,7 @@ calculateSum.addEventListener('click', function(){
     var flag = false;
     
     if(discountCode.value.length > 0 && discountCode.value === promoCode){
-        total.innerHTML = totalDiscount + "$"
+        total.innerHTML = totalDiscount.toFixed(2) + "$"
         flag = true;
     }else if (discountCode.value.length > 0){
         alert("Nce provà!");
